@@ -70,7 +70,7 @@ trait Referrable
      * @param  int|null  $referrerID
      * @return void
      */
-    public function createReferralAccount(int $referrerID = NULL)
+    public function createReferralAccount($referrerID = NULL)
     {
 
         $prefix = config('referral.ref_code_prefix');
