@@ -3,7 +3,7 @@
 namespace Jijunair\LaravelReferral\Models;
 
 use Illuminate\Support\Facades\App;
-use Illuminate\Database\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model;
 
 class Referral extends Model
 {
