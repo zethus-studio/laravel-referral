@@ -9,12 +9,19 @@
         "package",
         "laravel-referral",
         "referral-system",
+        "mongodb",
         "user-referral"
     ],
     "homepage": "https://github.com/jijunair/laravel-referral",
     "type": "library",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Zethus Studio",
+            "email": "info@zethus-studio.ir",
+            "homepage": "zethus-studio.ir",
+            "role": "Developer"
+        },
         {
             "name": "Jiju Nair",
             "email": "hello@jijunair.com"
@@ -23,7 +30,8 @@
     "require": {
         "php": "^7.2|^7.3|^7.4|^8.0",
         "illuminate/database": "^8.0|^9.0|^10.0|^11.0|^12.0",
-        "illuminate/auth": "^8.0|^9.0|^10.0|^11.0|^12.0"
+        "illuminate/auth": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "mongodb/laravel-mongodb": "^4.7"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4|^10.0|^11.0|^12.0"
