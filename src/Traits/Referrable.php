@@ -70,7 +70,7 @@ trait Referrable
      * @param  int|null  $referrerID
      * @return void
      */
-    public function createReferralAccount($referrerID = NULL)
+    public function createReferralAccount($referrerID = NULL, $price = NULL)
     {
 
         $prefix = config('referral.ref_code_prefix');
@@ -80,6 +80,7 @@ trait Referrable
         $ref = new Referral;
         $ref->user_id = $this->getKey();
         $ref->referrer_id = $referrerID;
+        $ref->price = $price;
         $ref->referral_code = $referralCode;
         $ref->save();
     }
