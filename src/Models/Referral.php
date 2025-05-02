@@ -13,7 +13,7 @@ class Referral extends Model
      * @var array
      */
     protected $fillable = [
-        'user_id', 'referral_code', 'referrer_id', 'price'
+        'user_id', 'referral_code', 'referrer_id'
     ];
 
     /**
